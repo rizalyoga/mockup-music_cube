@@ -1,0 +1,73 @@
+@media (max-width: 768px) {
+  .direction li a {
+    display: none;
+  }
+
+  .music-menu li a {
+    display: none;
+  }
+
+  .music-menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .music-menu svg {
+    fill: #c2c2ca;
+    height: 22px;
+    width: 22px;
+  }
+
+  .music-menu p {
+    display: none;
+  }
+
+  .direction,
+  .music-menu li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .direction li svg,
+  .music-menu .title-menu-music {
+    display: block;
+    width: 22px;
+    height: 22px;
+  }
+
+  .cover-play-now {
+    margin-left: 0;
+  }
+
+  .music-menu .title-menu-music {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-play-song .cover-album {
+    position: relative;
+    border-radius: 0;
+    width: 100px;
+    height: 100px;
+  }
+
+  .desc-play-now .title-song {
+    margin-top: -10px;
+  }
+
+  .button-control svg:nth-child(1) {
+    font-size: 30px;
+  }
+
+  .desc-play-now .title-song {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  .cover-play-now {
+    margin-left: -20px;
+  }
+}
